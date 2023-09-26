@@ -1,0 +1,52 @@
+/**
+Global CSS
+**/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+} 
+.post-container {
+  display: flex;
+  
+  justify-content: space-around;
+    align-items: center;
+    padding:20px;
+   
+}
+.Image-container{
+  max-width:600px;
+  padding:30px;
+  height:auto;
+  margin-right:5px;
+  border-radius: 15px;
+}
+.title-container{
+  padding:30px;
+  max-width:600px;
+
+}
+.image{
+  width :600px;
+   height:auto;
+   border-radius:20px;
+}
+
+/** End of CSS **/
