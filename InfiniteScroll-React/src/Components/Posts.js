@@ -19,7 +19,6 @@ const Post = () => {
   const [error, setError] = useState();
   const [currentPage, setCurrentPage] = useState(1);
   
- console.log({currentPage})
   //options object created for date format
   const options = {
     year: "numeric",
@@ -74,7 +73,6 @@ const Post = () => {
               <div className="title-container">
                 <h3>{item.node.title}</h3>
                 <p>
-                  
                   {new Date(item.node.last_update * 1000).toLocaleString(
                     "en-US",
                     options
@@ -91,4 +89,4 @@ const Post = () => {
 };
 
 export default Post;
-// End Component
+// End of the Component
